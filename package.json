@@ -1,0 +1,17 @@
+{
+  "name": "playwright-test-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --ui",
+    "test:sauce-demo-api": "npx playwright test tests/sauce-demo/API --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.7"
+  }
+}
