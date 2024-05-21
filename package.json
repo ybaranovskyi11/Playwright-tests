@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test --ui",
-    "test:sauce-demo-api": "npx playwright test tests/sauce-demo/API --ui"
+    "test:sauce-demo-api": "npx playwright test tests/sauce-demo/API --ui",
+    "test:sauce-demo-stress": "npx playwright test tests/sauce-demo/stress --ui"
   },
   "keywords": [],
   "author": "",
